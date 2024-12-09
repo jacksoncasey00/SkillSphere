@@ -1,0 +1,19 @@
+.topBar {
+  background-color: #4CAF50;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0px 50px;
+  font-size: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #FFC107;
+}

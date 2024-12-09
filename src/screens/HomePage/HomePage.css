@@ -1,0 +1,96 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.homePage {
+  background-color: #F5F5F5;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.heroSection {
+  background: linear-gradient(135deg, #4caf50, #8bc34a);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.heroDescription {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.actionButton {
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #388e3c;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px;
+  height: 70px;
+}
+
+.actionButton:hover {
+  background-color: #2e7d32;
+}
+
+.featuresSection {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.featuresSection h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.featureCard {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.featureCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.featureCard p {
+  font-size: 1rem;
+  color: #555;
+}

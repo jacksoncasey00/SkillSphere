@@ -1,0 +1,27 @@
+.matchmakingPage {
+  background-color: #F5F5F5;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.matchmakingSearch {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.matchmakingTable .buttonLink {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.matchmakingTable .buttonLink:hover {
+  background-color: #1a7bca;
+}

@@ -1,0 +1,95 @@
+.profilePage {
+  background-color: #F5F5F5;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.profileHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileHeader button {
+  margin-left: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #F5F5F5;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.profileHeader button:hover {
+  background-color: #e7e7e7;
+}
+
+.profileInfo {
+  display: flex;
+}
+
+.leftProfile {
+  width: 40%;
+  padding-left: 20px;
+}
+
+.leftProfile img {
+  width: 40%;
+}
+
+.leftProfile h2 {
+  font-size: 30px;
+}
+
+.leftProfile p {
+  font-size: 24px;
+}
+
+.leftProfile .stars {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rightProfile {
+  width: 60%;
+}
+
+.rightProfile .profileItem {
+  display: flex;
+  align-items: center;
+}
+
+.rightProfile h2 {
+  text-align: left;
+  margin-left: 200px;
+}
+
+.rightProfile p {
+  font-size: 24px;
+}
+
+.rightProfile .button {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  border: none;
+  border-radius: 30px;
+  width: 40%;
+  height: 20%;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+}
+
+.rightProfile .button:hover {
+  background-color: #1a7bca;
+}
+
+.rightProfile .buttonLink {
+  color: #FFFFFF;
+  text-decoration: none;
+}
